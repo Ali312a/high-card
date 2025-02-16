@@ -1,0 +1,26 @@
+.playing-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 150px;
+    padding: 1rem;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .card-rank {
+    font-weight: bold;
+  }
+  
+  .card-suit {
+    font-style: italic;
+  }
+  
